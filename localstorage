@@ -1,0 +1,29 @@
+//When the user clicks a button
+//Take value from input field
+//Create key in local storage
+//Set value to key in local storage
+
+//Page 1 of localstorage~~~!!!!!!
+
+function getStuff() {
+	var something = document.getElementById('inputbox').value;
+  localStorage.setItem("thing", something);
+  location.href = "page2.html";
+}
+// You do not need to wrap quotes around something because it is a value
+
+----------------------------------
+
+//When the user presses a button 
+//Get key from localstorage
+//Place on the screen
+
+//Page 2~~!!!!
+
+function hello() {
+	var x = localStorage.getItem('thing')
+  document.getElementById('hello2').innerHTML = "Hello" + x;
+  }
+  
+  //Button would be the hello function
+  //hello2 is made up.
