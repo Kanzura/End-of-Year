@@ -1,0 +1,11 @@
+var arr = [
+  "Masen",
+  "Justin",
+  "Jyunghyun",
+  "Zhi"
+]
+
+for (i = 0; i < arr.length - 1; i++) {
+	window.alert(arr[i])
+}
+// Minus 1 does not include Zhi
