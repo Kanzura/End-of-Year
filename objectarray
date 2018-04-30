@@ -1,0 +1,31 @@
+//Create an array that has multiple key value pairs
+//Call a random item in the array and display its values
+
+//var arr = [kiva, something]
+//^
+//|
+//square brackets make it a 2-dimensional 
+//Objects are 3-dimensional (used for object)
+
+var Carter = {
+	firstName: "Carter",
+  grade: 11,
+  
+}
+
+var Justin = {
+	firstName: "Justin",
+  grade: 11,
+  
+}
+
+var Zhi = {
+	firstName: "Zhi",
+  grade: 11,
+  
+}
+
+var students = [Carter, Justin, Zhi];
+var x = (Math.floor(Math.random()) * students.length);
+//Logical error if the names are not on top of var students or x
+window.alert(students[x].firstName);
